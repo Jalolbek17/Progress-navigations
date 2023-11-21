@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tab-changer">
+            <input type="text" id="index-field" placeholder="Enter tab index">
+            <button id="btnTab">Change tab</button>
+        </div>
+        <div class="tab-content-container">
+            <div class="tab-name">
+                <input type="radio" name="tab" id="tab-positive" checked>
+                <label for="tab-positive">Positive</label>
+
+                <input type="radio" name="tab" id="tab-negative">
+                <label for="tab-negative">Negative</label>
+
+                <input type="radio" name="tab" id="tab-neutral">
+                <label for="tab-neutral">Neutral</label>
+            </div>
+            <div class="tab-content">
+                <p id="p-content">Positive content</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
